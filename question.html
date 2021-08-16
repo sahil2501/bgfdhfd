@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Math Quiz Question</title>
+        <link rel = "shortcut icon" href = "confrimed.jpg">
+        <link rel = "stylesheet" href = "login.css">
+    </head>
+    <body onload="turn_display()">
+        <h1>Math Quiz</h1>
+        <br>
+        <br>
+        <div id = "question">
+
+        </div>
+        <br>
+        <br>
+        <div id = "answer">
+
+        </div>
+        <br>
+        <br>
+        <div id = "output">
+
+        </div>
+        <br>
+        <br>
+        <div>
+            <h5 id = "score1"></h5>
+            <br>
+            <h5 id = "score2"></h5>
+        </div>
+        <input type = "text" id = "num_1" placeholder="Number 1...">
+        <br>
+        <br>
+        <input type = "text" id = "num_2" placeholder="Number 2...">
+        <br>
+        <br>
+        <button type="submit" onclick="send()">Send</button>
+        <br>
+        <br>
+        <button type = "reset" onclick="back()">Back</button>
+        <script src = "question.js"></script>
+    </body>
+</html>
